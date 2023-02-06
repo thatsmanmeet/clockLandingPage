@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  line-height: 1.3;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("./images/birds.jpg");
+  width: 100%;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.time {
+  color: white;
+  font-weight: 400;
+  font-size: 4rem;
+}
+.date {
+  color: white;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 515px) {
+  section {
+    background-size: 150% 100%;
+  }
+}
